@@ -217,12 +217,12 @@ Our Selenium tool uses `headful` mode and needs to access the website, which is 
 ├── Extension/                              // Storing extensions of password managers used in our experiments
 ├── Sample Data/                            // Sample data for login, personal information form, and credit card form using fake data
 ├── PM Sample Data/                         // Available credentials for Enpass password manager and Norton password manager
-├── chrome_login.ps1						// Powershell scripts for testing chrome in login forms
-├── chrome_pii.ps1							// Powershell scripts for testing chrome in personal information forms
-├── chrome_cvv.ps1							// Powershell scripts for testing chrome in credit card forms
-├── norton_login.ps1						// Powershell scripts for testing norton in login forms
-├── norton_cvv.ps1							// Powershell scripts for testing norton in credit card forms
-├── enpass_login.ps1						// Powershell scripts for testing enpass in login forms
-├── enpass_cvv.ps1							// Powershell scripts for testing enpass in credit card forms
+├── chrome_login.ps1			    // Powershell scripts for testing chrome in login forms
+├── chrome_pii.ps1			    // Powershell scripts for testing chrome in personal information forms
+├── chrome_cvv.ps1			    // Powershell scripts for testing chrome in credit card forms
+├── norton_login.ps1			    // Powershell scripts for testing norton in login forms
+├── norton_cvv.ps1			    // Powershell scripts for testing norton in credit card forms
+├── enpass_login.ps1			    // Powershell scripts for testing enpass in login forms
+├── enpass_cvv.ps1			    // Powershell scripts for testing enpass in credit card forms
 ├── README.md                               // README.md
 ```
