@@ -64,7 +64,7 @@ These tests require users to register PM accounts and import test data, and huma
 
 To reduce the workload of AE reviewers, we have packed all the required environment and software dependencies into the [`Virtual Machine image.`](https://zenodo.org/records/13380735/files/leakyautofill.ova) At least a Windows 11 system with [`Virtualbox`](https://www.virtualbox.org/wiki/Downloads) software is required.
 
-If AE reviewers prefer running our tool on their machine, python3 (with the required dependencies listed above) and Chrome browser are at least needed for completing our provided three samples.
+If AE reviewers prefer running our tool on their machine, python3 (with the required dependencies listed above) and Chrome browser are at least needed for completing our provided three samples. Moreover, we have uploaded the `requirements.txt` file in the [`Code\`] directory, which lists the Python dependencies and their exact versions. AE reviews could install all Python dependencies by running the command `pip install -r requirements.txt` under the [`Code\`] directory.
 
 > Notes: Due to the need for manual interaction, we can only use `headful` Selenium. The Selenium instances are also set to a resolution of 1920 * 1080. To prevent layout changes in web forms that could cause test failures, we need to ensure that the screen can accommodate this resolution and that the screen's resolution (DPR) is ideally 1:1.
 
