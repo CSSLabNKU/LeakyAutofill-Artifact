@@ -191,6 +191,8 @@ After around *seven* minutes for each test, we could obtain the results in `[Art
 Here is a video (in `Video\Norton\Human Operation for Norton.mp4`) for the above human operation (about 100 seconds).
 The videos for all Norton tests are shown in [`Video\Norton\`].
 
+> The manual operations that may be involved with other PMs are listed in the `DETAIL_PM_README.md` file.
+
 ## Notes
 
 Our Selenium tool uses `headful` mode and needs to access the website, which is sensitive to network fluctuations and unexpected user interactions that could potentially lead to test failures. For instance, the autofill feature might fail to fill any information. In the event of such an occurrence, we strongly recommend the following steps:
