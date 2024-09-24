@@ -165,7 +165,7 @@ Here is a video (in `Video\Enpass\Human Operation for Enpass.mp4`) for the above
 
 This experiment examines whether Norton password manager will autofill sensitive data into hidden sensitive fields in web forms. In this case, the concealment techniques apply to **the ancestor elements of `<input>` elements**. We have registered a test account and stored login credentials for tested websites and credit card information (using data in `Sample Data`). The registered credential is stored in `[PM Sample Data\Norton.json]`, including the account name, account password, and vault key for unlocking the password vault. Then, testers could run the following script.
 
-We need to run the following scripts, with the manual process repeated for each iteration, taking approximately xx minutes per run. Specific steps are as follows:
+We need to run the following scripts, with the manual process repeated for each iteration, taking approximately seven minutes per run. Specific steps are as follows:
 
 Under the above directories: `C:\Users\artifact\Desktop\Artifact\,` open `windows command line,` and run the following instructions, respectively.
 
