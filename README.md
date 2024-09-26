@@ -46,6 +46,8 @@ These tests require users to register PM accounts and import test data, and huma
 
 > Safari does not support loading user profiles with pre-entered sample data or allowing subsequent manual interactions for testing purposes. Due to this limitation, experiments involving Safari are conducted manually on macOS Monterey 12.7.4. [[Link1]](https://stackoverflow.com/questions/62246240/disable-automation-warning-in-safari-when-using-selenium) [[Link2]](https://github.com/SeleniumHQ/selenium/issues/6198)
 
+> Testers may need to change the path in the `config\common_config.py` as we have only provided the path format on Windows.
+
 ### Software dependencies
 
 ```
