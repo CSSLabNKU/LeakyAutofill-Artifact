@@ -72,7 +72,7 @@ If AE reviewers prefer running our tool on their machine, python3 (with the requ
 
 We have deployed our tested websites on [GitHub](https://leakyautofill.github.io). Thus, our testing requires testers to be able to access `github.io`. Besides, testers should maintain a stable network connection to interact with PMs to complete the testing.
 
-## Artifact Evaluation
+## Artifact Evaluation / Running the tools
 
 ### Installation: Import VirtualBox image
 
