@@ -233,6 +233,8 @@ The main process is the same as that of the Chrome browser. If the tester does n
 
 Safari does not support loading user profiles with pre-entered sample data or allowing subsequent manual interactions for testing purposes. Due to this limitation, experiments involving Safari are conducted manually on macOS Monterey 12.7.4.
 
+Specifically, we manually visit all the test websites, trigger the autofill functionality of the Safari browser to fill in the web forms. Then, we utilize JavaScript `document.getElementById(#id).value` command in the DevTools to retrive the vaule in the hidden fields. Finally, we can determine whether Safari will autofill data into hidden fields.
+
 ## Mozilla Firefox
 
 > This PM provides autofill functionality for all three web forms.
