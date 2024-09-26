@@ -9,7 +9,7 @@ The callback function checks the visibility and availability of each window and 
 If the process ID of the window matches the provided PID, its handle is added to the result list. Finally, it returns all found window handles.
 
 This function is particularly useful when testing Chromium-based PMs. 
-This is because the pop-up windows of the built-in-Chromium-browser PMs belongs to the same process of the browser yet not the same window handle. 
+This is because the pop-up windows of the built-in-Chromium-browser PMs belong to the same process of the browser yet not the same window handle. 
 If we want to conduct the click event in the pop-up window of the PM, we need to change our focus to the newly generated window handle.
 
 """
